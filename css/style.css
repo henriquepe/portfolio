@@ -1,0 +1,91 @@
+:root {
+  --color-dracula: #383A59;
+  --green-dracula: #50fa7b;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  background: var(--color-dracula);
+  color: white;
+  font-family: 'Source Code Pro', monospace;
+}
+
+/* ---- CABEÇALHO ----*/
+
+header {
+  padding: 32px;
+  background: rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #333;
+  
+}
+
+.menu {
+  text-align: center;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  margin-left: 32px;
+  font-size: 18px;
+  transition: 700ms;
+}
+
+.menu a:hover {
+  color: var(--green-dracula);
+}
+
+/* ---- MAIN ----*/
+
+.apresentation {
+  text-align: center;
+}
+
+.apresentation img {
+  margin: 32px 0;
+  border-radius: 50%;
+  border: 4px solid #282A36;
+  height: 350px;
+}
+
+.apresentation h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 7px 0;
+}
+
+.apresentation h2 {
+  font-size: 24px;
+  opacity: 0.6;
+  margin-bottom: 24px;
+}
+
+.apresentation p {
+  font-size: 18px;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 32px; 
+  padding-bottom: 32px;
+}
+
+.social-media-footer a{
+  border-bottom: 1px solid #50fa7b;
+  transition: 700ms;
+  margin-right: 10px;
+}
+
+.social-media-footer a:hover {
+  color: var(--green-dracula);
+  border-bottom: 1px solid white;
+}
+
+
+
